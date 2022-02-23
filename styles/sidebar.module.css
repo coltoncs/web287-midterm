@@ -1,0 +1,42 @@
+.sidebar {
+    position: relative;
+    height: 100vh;
+    width: 20vw;
+    box-shadow: 0 0 25px rgba(107, 107, 107, 0.45);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px 25px 0;
+    
+    color: #323338;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25%;
+    text-align: center;
+    
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .social {
+        flex-direction: column;
+    }
+}
